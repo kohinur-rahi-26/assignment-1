@@ -1,0 +1,1 @@
+"Please create a modern website section that developers often place just above the footer. It should display positive user testimonials or reviews, similar to screenshots of people leaving great comments. The design should look clean, professional, and match a modern tech website, with review cards, user avatars, and a premium UI."

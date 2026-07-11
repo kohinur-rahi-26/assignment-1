@@ -83,8 +83,9 @@
 /* 3rd part */
 .meet{
     text-align: center;
-    font-size: 56px;
+    font-size: 50px;
     font-weight: bold;
+    margin-top: 25px;
 }
 .section{
     display:grid;
