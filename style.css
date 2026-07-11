@@ -306,4 +306,23 @@
 .prize small{
     color:#9CA3AF;
 }
+/* 6th part */
+.footer{
+    background:#0D1B2A;
+    padding: 50px 32px;
+    color:#fff;
+}
 
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    
+    
+}
+.social-icons{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    margin-top:20px;
+    
+}
