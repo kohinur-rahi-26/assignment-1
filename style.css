@@ -1,0 +1,309 @@
+
+ *{
+    margin:0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing:border-box;
+
+    
+}
+
+
+.navbar{
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    background:#fff;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:10px ;
+}
+
+.text{
+    color: rgba(186, 186, 186, 1);
+    
+}
+.text-1{
+    color: rgba(13, 27, 42, 1);
+}
+
+
+
+.nav-links{
+    display:flex;
+    gap:40px;
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#555;
+    font-size:16px;
+}
+
+.btn{
+    text-decoration:none;
+    background:rgba(29, 78, 216, 1);
+    color:#FFFFFF;
+    padding:12px 24px;
+    border-radius:8px;
+    font-weight:bold;
+    border: none;
+}
+/* }2nd part */
+.banner{
+    text-align: center;
+    padding-top: 136px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('./assets/banner.jpg');
+    background-size: cover;
+    height: 836px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.text-2{
+    font-size: 70px;
+    color: #fff;
+}
+.text-3{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.btn-pre{
+    padding-top: 233px;
+}
+/* 3rd part */
+.meet{
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+}
+.section{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    padding: 0 8%;
+    border-radius: 2px;
+    
+}
+.card{
+    background:#fff;
+    border-radius:8px;
+    box-shadow:0 8px 12px rgba(0,0,0,.08);
+    
+}
+.card img{
+    width:100%;
+    height:324px;
+    object-fit:cover;
+    display:block;
+}
+
+.card-content{
+    padding:32px;
+    
+}
+.clr-blu{
+    font-size: 12px;
+    color: #2563EB;
+    line-height: 24px;
+}
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+
+    
+}
+.p{
+    font-size: 14px;
+    color: #575757;
+    line-height: 24px;
+    
+}
+
+/* 4th part */
+.spots{
+
+     width:100%;
+     max-width:1100px;
+     margin:70px auto;
+     text-align:center;
+
+}
+.heading{
+    text-align: center;
+}
+.secure{
+    font-size: 48px;
+    font-weight: bold;
+}
+.early{
+    font-size: 16px;
+    color: #575757;
+    margin-top: 26px;
+}
+.boxes{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top: 48px;
+
+    
+}
+.box{
+    background:white;
+    width:320px;
+    padding:30px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    text-align:left;
+
+}
+.box ul{
+    margin:25px 0;
+    padding-left:18px;
+    font-size: 14px;
+
+}
+
+.box ul li{
+    margin:12px 0;
+    color:#333333;
+    font-size: 14px;
+}
+.box h5{
+    color:#888888;
+    margin-bottom:10px;
+}
+
+.box h2{
+    font-size:44px;
+    font-weight: bold;
+}
+
+.box p{
+    color:#888888;
+    font-size:13px;
+}
+
+.box ul{
+    margin:25px 0;
+    padding-left:18px;
+}
+
+.box ul li{
+    margin:12px 0;
+    color:#444;
+}
+
+.box button{
+    width:100%;
+    padding:12px;
+    border:1px solid #2d6cff;
+    border-radius:6px;
+    background:white;
+    color:#2d6cff;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.active{
+    background:#0D1B2A;
+    color:white;
+}
+.active h5{
+    color:#93C5FD;
+    font-size: 13px;
+}
+.active p{
+    color: #888888;
+}
+.active  ul li{
+    color:#FFFFFF;
+    font-size: 13px;
+    
+}
+
+.active button{
+    background:#2563EB;
+    color:#FFFFFF;
+    border:none;
+}
+/* 5th part */
+.testimonial-section{
+    max-width:1200px;
+    margin:80px auto;
+    padding:0 20px;
+}
+
+.title{
+    text-align:center;
+    font-size:32px;
+    font-weight:700;
+    margin-bottom:40px;
+    color:#111827;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.prize{
+    width:350px;
+    background:#fff;
+    border:1px solid #eee;
+    border-radius:16px;
+    padding:24px;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+}
+
+.card-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:18px;
+}
+
+.card-header img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+}
+
+.quote{
+    font-size:30px;
+    color:#8B5CF6;
+    font-weight:bold;
+}
+
+.review{
+    font-size:15px;
+    color:#6B7280;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.prize h4{
+    font-size:16px;
+    color:#111827;
+    margin-bottom:4px;
+}
+
+.prize small{
+    color:#9CA3AF;
+}
+
