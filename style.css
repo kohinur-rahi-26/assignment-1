@@ -339,3 +339,16 @@
     color:#9CA3AF;
     margin-right:1000px;
 }
+.footer-link{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    margin-top:-15px;
+    margin-left:1000px;
+}
+.footer-link a{
+    text-decoration:none;
+    color:#9CA3AF;
+    font-size:14px;
+    
+}
